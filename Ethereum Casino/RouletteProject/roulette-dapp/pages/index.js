@@ -124,6 +124,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="http://localhost:3000/" style={{marginLeft: "250px"}}>Home</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active" style={{marginLeft: "250px"}}>
+              <a class="nav-link" href="http://localhost:3001/">Lottery Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:3002/" style={{marginLeft: "250px"}}>Roulette Game</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div className='row mb-5 mt-2'>
         <div className='col align-self-start'>
           <h1 className='text-dark text-center'>Ethereum Roulette</h1>
