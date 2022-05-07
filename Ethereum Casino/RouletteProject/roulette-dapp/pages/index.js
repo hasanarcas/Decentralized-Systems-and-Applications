@@ -124,15 +124,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="http://localhost:3000/" style={{marginLeft: "250px"}}>Home</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active" style={{marginLeft: "250px"}}>
-              <a class="nav-link" href="http://localhost:3001/">Lottery Game</a>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="http://localhost:3000/" style={{marginLeft: "180px"}}>Home</a>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active" style={{marginLeft: "180px"}}>
+              <a className="nav-link" href="http://localhost:3001/">Lottery Game</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://localhost:3002/" style={{marginLeft: "250px"}}>Roulette Game</a>
+            <li className="nav-item">
+              <a className="nav-link" href="http://localhost:3002/" style={{marginLeft: "180px"}}>Roulette Game</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="http://localhost:3003/" style={{marginLeft: "180px"}}>Slot Game</a>
             </li>
           </ul>
         </div>
